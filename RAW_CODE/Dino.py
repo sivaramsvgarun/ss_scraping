@@ -92,7 +92,7 @@ dino_details = pd.DataFrame(dino_info, columns = ['Info'])
 # #Finally, we concatenate both DataFrames, so we have all the info into a single DataFrame
 dino_df = pd.concat([dino_df, dino_details], ignore_index = True, axis = 1)
 
-file_name = "Location needs to be mention"
+file_name = "Location needs to be modified"
 #
 # #Then I convert all my data into a Excel File so i can read, manipulate and clean my data from here instead of make the whole scrap over and over again.
 dino_df.to_excel(file_name)
